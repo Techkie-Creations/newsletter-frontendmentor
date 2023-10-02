@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [You are already here!]([https://your-solution-url.com](https://github.com/Techkie-Creations/newsletter-frontendmentor))
-- Live Site URL: [Add live site URL here](https://techkie-creations.github.io/newsletter-frontendmentor/)
+- Live Site URL: [Newsletter-Frontend Mentor](https://techkie-creations.github.io/newsletter-frontendmentor/)
 
 ## My process
 
