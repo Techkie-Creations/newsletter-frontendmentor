@@ -60,5 +60,5 @@ Still planning on actually sending live emails when a user signs up -- if intere
 
 #### Techkie Creations
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Techkie-Creations)
+- Frontend Mentor - [@Techkie-Creations](https://www.frontendmentor.io/profile/Techkie-Creations)
 - Codepen - [@Techkie-Creations](https://codepen.io/Tech--Guy)
