@@ -48,7 +48,7 @@ Users should be able to:
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
-- [Boostrap Components](https://getbootstrap.com/) - For styles
+- [Bootstrap Components](https://getbootstrap.com/) - For styles
 
 
 
