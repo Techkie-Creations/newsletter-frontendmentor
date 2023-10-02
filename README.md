@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://github.com/Techkie-Creations/newsletter-frontendmentor))
+- Solution URL: [You are already here!]([https://your-solution-url.com](https://github.com/Techkie-Creations/newsletter-frontendmentor))
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -54,7 +54,7 @@ Users should be able to:
 
 ### Continued development
 
-Still planning on actually sending live emails when a user signups -- if interested check again in the near future!
+Still planning on actually sending live emails when a user signs up -- if interested check again in the near future!
 
 ## Author
 
