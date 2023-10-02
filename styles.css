@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+:root {
+    --danger: darkred;
+    --danger-light: #FDC3C2;
+    --okay: green;
+    --okay-light: lightgreen;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #10064C;
+}
+
+h1 {
+    font-family: 'Roboto';
+}
+
+/* NEWSLETTER */
+
+#design {
+    width: 70%;
+    margin: 100px auto 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 530px;
+    padding: 15px;
+    padding-left: 40px;
+}
+
+#design #info {
+    width: 90%;
+}
+
+#design #info #newsletter {
+    width: 90%;
+}
+
+#design .news-img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#design, .news-img {
+    border-radius: 11px;
+}
+
+ul {
+    margin: 20px 0;
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 0;
+    text-align: left;
+}
+
+
+ul li .li-img {
+    margin-right: 10px;
+    float: left;
+}
+
+input[type="email"] {
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #10064C;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.btn[disabled="disabled"]:hover {
+    color:white;
+    background-color: #10064C;
+    opacity: .85;
+}
+
+.alert {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.none {
+    display: none !important;
+}
+
+/* THANKS */
+
+#thanks {
+    width: 50%;
+    margin: 100px auto 20px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#thanks .btn {
+    border-radius: 10px;
+}
+
+#thanks span {
+    font-weight: 900;
+}
+
+/* FOOTER-LIKE */
+
+.attribution {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.attribution a {
+    color: red;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 767px) {
+    #design {
+        flex-direction: column-reverse;
+        height: 100%;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    #design .news-img {
+        height: 250px;
+    }
+
+    #thanks {
+        width: 65%;
+    }
+}
+
+@media (max-width: 350px) {
+    #design #info #newsletter {
+        width: 100%;
+    }
+
+    .attribution span {
+        display: block;
+    }
+
+    #thanks {
+        width: 80%;
+    }
+}
