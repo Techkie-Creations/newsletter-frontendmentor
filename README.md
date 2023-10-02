@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Preview of my solution](./design/preview.png) 
+![Preview of my solution](./design/preview.PNG) 
 
 ### Links
 
