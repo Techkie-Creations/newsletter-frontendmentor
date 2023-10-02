@@ -5,6 +5,8 @@
     --danger-light: #FDC3C2;
     --okay: green;
     --okay-light: lightgreen;
+    --bg-color: white;
+    --same-color: #10064C;
 }
 
 * {
@@ -13,7 +15,7 @@
 }
 
 body {
-    background-color: #10064C;
+    background-color: var(--same-color);
 }
 
 h1 {
@@ -28,7 +30,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: var(--bg-color);
     height: 530px;
     padding: 15px;
     padding-left: 40px;
@@ -80,7 +82,7 @@ input[type="email"] {
 }
 
 .btn {
-    background-color: #10064C;
+    background-color: var(--same-color);
     color: white;
     margin-top: 20px;
     border-radius: 10px;
@@ -88,7 +90,7 @@ input[type="email"] {
 
 .btn[disabled="disabled"]:hover {
     color:white;
-    background-color: #10064C;
+    background-color: var(--same-color);
     opacity: .85;
 }
 
@@ -108,7 +110,7 @@ input[type="email"] {
 #thanks {
     width: 50%;
     margin: 100px auto 20px auto;
-    background-color: white;
+    background-color: var(--bg-color);
     padding: 30px;
     border-radius: 20px;
 }
